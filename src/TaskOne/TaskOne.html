@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Task 1</title>
+  <style>
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          font-family: Arial, sans-serif;
+      }
+
+      .container {
+          text-align: center;
+      }
+
+      .controls {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+      }
+
+      select {
+          padding: 5px;
+          font-size: 16px;
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 id="sentence">Ако ме изберат за премиер, ще построя магистрала</h1>
+  <div class="controls">
+    <select id="leftSelect">
+      <option value="true" selected>True</option>
+      <option value="false">False</option>
+    </select>
+    <select id="rightSelect">
+      <option value="true" selected>True</option>
+      <option value="false">False</option>
+    </select>
+  </div>
+</div>
+
+<script src="TaskOne.js"></script>
+</body>
+</html>
